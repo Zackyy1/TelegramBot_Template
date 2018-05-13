@@ -113,7 +113,7 @@ def handle_help(mes):
 @bot.message_handler(content_types=['text'])
 def handle_text(mes):
     # DEBUGGING
-    print("["+mes.from_who.first_name+"]: "+str(mes.text))
+    print("["+mes.from_who.first_name+"]: " + str(mes.text))
     # DEBUGGING
     text = mes.text
 
